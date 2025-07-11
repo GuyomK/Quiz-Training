@@ -189,39 +189,50 @@ button:hover {
     padding: 20px;
   }
 
-  h1 {
-    font-size: 22px;
+  h1,h2 {
+    font-size: 24px;
   }
 
   .question {
-    font-size: 18px;
-  }
-
-  button {
-    font-size: 14px;
-    padding: 10px;
-    width: 100%;
-  }
-
-  .choices {
-    gap: 8px;
-  }
-
-  #explanation {
-    font-size: 14px;
-    padding: 8px;
-  }
-
-  #score {
     font-size: 20px;
   }
 
+  button {
+    font-size: 18px;
+    padding: 14px;
+    width: 100%;
+  }
+
+  #question-count {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .choices {
+    gap: 12px;
+  }
+
+  #explanation {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  #score {
+    font-size: 22px;
+  }
+
   #question-number {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .progress-bar-container {
-    height: 10px;
+    height: 12px;
+  }
+
+  label {
+    font-size: 18px;
+    display: block;
+    margin: 8px 0;
   }
 }
 
