@@ -7,8 +7,8 @@ html, body {
   text-align: center;
 }
 
-#start-screen,
-#quiz-container {
+/* Appliqué à tous les écrans principaux */
+.screen {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,9 +16,18 @@ html, body {
   min-height: 100vh;
   padding: 20px;
   box-sizing: border-box;
+  width: 100%;
+}
+
+
+/* Logo */
+#quiz-logo {
+  max-width: 180px;
+  margin-bottom: 20px;
 }
 
 .container {
+  width: 100%;
   max-width: 600px;
   background-color: white;
   padding: 30px;
@@ -146,23 +155,12 @@ button:hover {
   width: 120px;
 }
 
-/* Animation lors du changement de question */
 .fade-out {
   opacity: 0;
   transition: opacity 0.4s ease;
 }
 
-#welcome-screen {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #ffffff;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
+/* Bien centré pour l'écran d'accueil */
 #welcome-screen h1 {
   font-size: 32px;
   color: #007bff;
@@ -191,11 +189,7 @@ button:hover {
   background-color: #218838;
 }
 
-#quiz-logo {
-  max-width: 180px;
-  margin-bottom: 20px;
-}
-
+/* Responsive mobile */
 @media screen and (max-width: 600px) {
   .container {
     margin: 20px 10px;
