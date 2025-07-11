@@ -1,0 +1,343 @@
+[
+  {
+    "question": "Qui est le père de Luke Skywalker ?",
+    "choices": [
+      "Anakin Skywalker",
+      "Obi-Wan Kenobi",
+      "Yoda",
+      "Han Solo"
+    ],
+    "answer": "Anakin Skywalker",
+    "explanation": "Anakin Skywalker devient Dark Vador et est révélé comme le père de Luke dans l'épisode V."
+  },
+  {
+    "question": "Quel est le nom du vaisseau de Han Solo ?",
+    "choices": [
+      "Millennium Falcon",
+      "X-Wing",
+      "Star Destroyer",
+      "Slave I"
+    ],
+    "answer": "Millennium Falcon",
+    "explanation": "Le Millennium Falcon est le vaisseau emblématique de Han Solo."
+  },
+  {
+    "question": "Quel est le sabre laser de couleur de Mace Windu ?",
+    "choices": [
+      "Bleu",
+      "Vert",
+      "Rouge",
+      "Violet"
+    ],
+    "answer": "Violet",
+    "explanation": "Mace Windu est le seul Jedi connu à utiliser un sabre violet dans les films."
+  },
+  {
+    "question": "Qui a entraîné Luke Skywalker dans l’épisode V ?",
+    "choices": [
+      "Obi-Wan Kenobi",
+      "Mace Windu",
+      "Yoda",
+      "Qui-Gon Jinn"
+    ],
+    "answer": "Yoda",
+    "explanation": "Luke est entraîné par Yoda sur Dagobah dans L'Empire contre-attaque."
+  },
+  {
+    "question": "Quel est le nom du chasseur de primes qui capture Han Solo ?",
+    "choices": [
+      "Jango Fett",
+      "Boba Fett",
+      "IG-88",
+      "Bossk"
+    ],
+    "answer": "Boba Fett",
+    "explanation": "Boba Fett livre Han Solo à Jabba le Hutt après l’avoir congelé."
+  },
+  {
+    "question": "Quel est le nom de la planète natale de Chewbacca ?",
+    "choices": [
+      "Kashyyyk",
+      "Tatooine",
+      "Endor",
+      "Naboo"
+    ],
+    "answer": "Kashyyyk",
+    "explanation": "Chewbacca vient de Kashyyyk, la planète des Wookiees."
+  },
+  {
+    "question": "Quel personnage utilise un sabre laser vert dans la trilogie originale ?",
+    "choices": [
+      "Luke Skywalker",
+      "Darth Vader",
+      "Han Solo",
+      "Leia Organa"
+    ],
+    "answer": "Luke Skywalker",
+    "explanation": "Luke utilise un sabre laser vert dans Le Retour du Jedi."
+  },
+  {
+    "question": "Qui a construit C-3PO ?",
+    "choices": [
+      "Anakin Skywalker",
+      "Obi-Wan Kenobi",
+      "Palpatine",
+      "Lando Calrissian"
+    ],
+    "answer": "Anakin Skywalker",
+    "explanation": "Anakin a construit C-3PO quand il était enfant sur Tatooine."
+  },
+  {
+    "question": "Quel est le nom complet de Dark Vador ?",
+    "choices": [
+      "Anakin Skywalker",
+      "Darth Sidious",
+      "Obi-Wan Kenobi",
+      "Luke Skywalker"
+    ],
+    "answer": "Anakin Skywalker",
+    "explanation": "Dark Vador est le nom Sith d'Anakin Skywalker."
+  },
+  {
+    "question": "Quelle est la profession principale de Han Solo ?",
+    "choices": [
+      "Pilote",
+      "Chasseur de primes",
+      "Contrebandier",
+      "Jedi"
+    ],
+    "answer": "Contrebandier",
+    "explanation": "Han Solo est un contrebandier avant de rejoindre l'Alliance Rebelle."
+  },
+  {
+    "question": "Comment s'appelle la princesse rebelle ?",
+    "choices": [
+      "Leia Organa",
+      "Padmé Amidala",
+      "Rey",
+      "Ahsoka Tano"
+    ],
+    "answer": "Leia Organa",
+    "explanation": "Leia Organa est la princesse rebelle dans la trilogie originale."
+  },
+  {
+    "question": "Quel est le nom du droïde de combat dans la prélogie ?",
+    "choices": [
+      "R2-D2",
+      "C-3PO",
+      "General Grievous",
+      "IG-88"
+    ],
+    "answer": "General Grievous",
+    "explanation": "General Grievous est un droïde de combat redoutable dans la prélogie."
+  },
+  {
+    "question": "Quelle est la couleur du sabre laser des Sith ?",
+    "choices": [
+      "Rouge",
+      "Vert",
+      "Bleu",
+      "Violet"
+    ],
+    "answer": "Rouge",
+    "explanation": "Les Sith utilisent traditionnellement des sabres lasers rouges."
+  },
+  {
+    "question": "Qui est le maître de Obi-Wan Kenobi ?",
+    "choices": [
+      "Qui-Gon Jinn",
+      "Yoda",
+      "Mace Windu",
+      "Anakin Skywalker"
+    ],
+    "answer": "Qui-Gon Jinn",
+    "explanation": "Qui-Gon Jinn est le maître de Obi-Wan dans la prélogie."
+  },
+  {
+    "question": "Quel est le nom de la planète désertique où vit Anakin dans son enfance ?",
+    "choices": [
+      "Tatooine",
+      "Naboo",
+      "Hoth",
+      "Endor"
+    ],
+    "answer": "Tatooine",
+    "explanation": "Anakin grandit sur la planète désertique Tatooine."
+  },
+  {
+    "question": "Qui tue Jabba le Hutt ?",
+    "choices": [
+      "Leia Organa",
+      "Luke Skywalker",
+      "Han Solo",
+      "Boba Fett"
+    ],
+    "answer": "Leia Organa",
+    "explanation": "Leia étrangle Jabba le Hutt avec ses chaînes dans Le Retour du Jedi."
+  },
+  {
+    "question": "Quel est le nom du seigneur Sith caché derrière l'Empereur ?",
+    "choices": [
+      "Darth Sidious",
+      "Darth Maul",
+      "Darth Tyranus",
+      "Darth Vader"
+    ],
+    "answer": "Darth Sidious",
+    "explanation": "Darth Sidious est l'alter ego de l'Empereur Palpatine."
+  },
+  {
+    "question": "Qui est le capitaine du Millennium Falcon ?",
+    "choices": [
+      "Han Solo",
+      "Chewbacca",
+      "Lando Calrissian",
+      "Rey"
+    ],
+    "answer": "Han Solo",
+    "explanation": "Han Solo est le capitaine et pilote du Millennium Falcon."
+  },
+  {
+    "question": "Quel est le nom du chasseur de primes qui porte un casque mandalorien ?",
+    "choices": [
+      "Boba Fett",
+      "Jango Fett",
+      "Cad Bane",
+      "Bossk"
+    ],
+    "answer": "Boba Fett",
+    "explanation": "Boba Fett porte un casque mandalorien distinctif."
+  },
+  {
+    "question": "Quelle créature vit dans la fosse de la planète Geonosis ?",
+    "choices": [
+      "Rancor",
+      "Sarlacc",
+      "Wampa",
+      "Bantha"
+    ],
+    "answer": "Sarlacc",
+    "explanation": "Le Sarlacc est la créature dans la fosse de Geonosis."
+  },
+  {
+    "question": "Quel est le prénom de Dark Sidious ?",
+    "choices": [
+      "Palpatine",
+      "Grievous",
+      "Dooku",
+      "Vader"
+    ],
+    "answer": "Palpatine",
+    "explanation": "Sheev Palpatine est le vrai nom de Dark Sidious."
+  },
+  {
+    "question": "Quel est le rôle de R2-D2 dans la saga ?",
+    "choices": [
+      "Droïde astromech",
+      "Droïde protocolaire",
+      "Chasseur de primes",
+      "Jedi"
+    ],
+    "answer": "Droïde astromech",
+    "explanation": "R2-D2 est un droïde astromech fidèle à Anakin et Luke."
+  },
+  {
+    "question": "Qui est l'ennemi juré d'Anakin Skywalker dans la prélogie ?",
+    "choices": [
+      "Count Dooku",
+      "Mace Windu",
+      "Yoda",
+      "Palpatine"
+    ],
+    "answer": "Count Dooku",
+    "explanation": "Count Dooku est un seigneur Sith et adversaire d'Anakin."
+  },
+  {
+    "question": "Comment s’appelle la planète forestière où se cache l’Alliance Rebelle ?",
+    "choices": [
+      "Endor",
+      "Dagobah",
+      "Hoth",
+      "Naboo"
+    ],
+    "answer": "Endor",
+    "explanation": "L’Alliance Rebelle utilise la lune d’Endor comme base secrète."
+  },
+  {
+    "question": "Quel est le nom du robot protocolaire jaune dans la série animée \"The Clone Wars\" ?",
+    "choices": [
+      "C-3PO",
+      "R2-D2",
+      "AP-5",
+      "BB-8"
+    ],
+    "answer": "AP-5",
+    "explanation": "AP-5 est un droïde protocolaire jaune dans \"The Clone Wars\"."
+  },
+  {
+    "question": "Qui est la mère de Luke Skywalker et Leia Organa ?",
+    "choices": [
+      "Padmé Amidala",
+      "Shmi Skywalker",
+      "Mon Mothma",
+      "Ahsoka Tano"
+    ],
+    "answer": "Padmé Amidala",
+    "explanation": "Padmé est la mère de Luke et Leia."
+  },
+  {
+    "question": "Quel est le nom de la prison spatiale où Han Solo est enfermé dans l’épisode VII ?",
+    "choices": [
+      "Jakku",
+      "Starkiller Base",
+      "Stark Prison",
+      "Kessel"
+    ],
+    "answer": "Starkiller Base",
+    "explanation": "Han Solo est capturé près de la Starkiller Base dans l’épisode VII."
+  },
+  {
+    "question": "Quel personnage est connu pour dire « Que la Force soit avec toi » ?",
+    "choices": [
+      "Plusieurs personnages",
+      "Dark Vador",
+      "Boba Fett",
+      "Jar Jar Binks"
+    ],
+    "answer": "Plusieurs personnages",
+    "explanation": "La phrase est un vœu courant dans toute la saga."
+  },
+  {
+    "question": "Qui est le chef des Jedi durant la prélogie ?",
+    "choices": [
+      "Mace Windu",
+      "Yoda",
+      "Obi-Wan Kenobi",
+      "Qui-Gon Jinn"
+    ],
+    "answer": "Mace Windu",
+    "explanation": "Mace Windu est le chef du Conseil Jedi durant la prélogie."
+  },
+  {
+    "question": "Quelle est la planète de glace où débute l'épisode V ?",
+    "choices": [
+      "Hoth",
+      "Tatooine",
+      "Endor",
+      "Dagobah"
+    ],
+    "answer": "Hoth",
+    "explanation": "La bataille de Hoth a lieu sur cette planète glacée."
+  },
+  {
+    "question": "Quel est le nom de la princesse dans la prélogie devenue sénatrice ?",
+    "choices": [
+      "Padmé Amidala",
+      "Leia Organa",
+      "Rey",
+      "Mon Mothma"
+    ],
+    "answer": "Padmé Amidala",
+    "explanation": "Padmé est à la fois reine puis sénatrice de Naboo."
+  }
+]

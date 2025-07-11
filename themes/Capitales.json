@@ -1,0 +1,365 @@
+[
+  {
+    "question": "Quelle est la capitale administrative de Afghanistan ?",
+    "choices": [
+      "Kaboul",
+      "Kandahar",
+      "Herat",
+      "Mazar-i-Sharif"
+    ],
+    "answer": "Kaboul",
+    "explanation": "Kaboul est la capitale administrative de Afghanistan."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Afrique du Sud ?",
+    "choices": [
+      "Pretoria",
+      "Le Cap",
+      "Johannesburg",
+      "Durban"
+    ],
+    "answer": "Pretoria",
+    "explanation": "Pretoria est la capitale administrative de Afrique du Sud."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Allemagne ?",
+    "choices": [
+      "Berlin",
+      "Hambourg",
+      "Munich",
+      "Cologne"
+    ],
+    "answer": "Berlin",
+    "explanation": "Berlin est la capitale administrative de Allemagne."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Arabie Saoudite ?",
+    "choices": [
+      "Riyad",
+      "Djeddah",
+      "Mecque",
+      "Médine"
+    ],
+    "answer": "Riyad",
+    "explanation": "Riyad est la capitale administrative de Arabie Saoudite."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Argentine ?",
+    "choices": [
+      "Buenos Aires",
+      "Cordoba",
+      "Rosario",
+      "Mendoza"
+    ],
+    "answer": "Buenos Aires",
+    "explanation": "Buenos Aires est la capitale administrative de Argentine."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Australie ?",
+    "choices": [
+      "Canberra",
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "answer": "Canberra",
+    "explanation": "Canberra est la capitale administrative de Australie."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Belgique ?",
+    "choices": [
+      "Bruxelles",
+      "Anvers",
+      "Gand",
+      "Charleroi"
+    ],
+    "answer": "Bruxelles",
+    "explanation": "Bruxelles est la capitale administrative de Belgique."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Brésil ?",
+    "choices": [
+      "Brasilia",
+      "São Paulo",
+      "Rio de Janeiro",
+      "Salvador"
+    ],
+    "answer": "Brasilia",
+    "explanation": "Brasilia est la capitale administrative de Brésil."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Canada ?",
+    "choices": [
+      "Ottawa",
+      "Toronto",
+      "Montréal",
+      "Vancouver"
+    ],
+    "answer": "Ottawa",
+    "explanation": "Ottawa est la capitale administrative de Canada."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Chine ?",
+    "choices": [
+      "Pékin",
+      "Shanghai",
+      "Guangzhou",
+      "Shenzhen"
+    ],
+    "answer": "Pékin",
+    "explanation": "Pékin est la capitale administrative de Chine."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Corée du Sud ?",
+    "choices": [
+      "Séoul",
+      "Busan",
+      "Incheon",
+      "Daegu"
+    ],
+    "answer": "Séoul",
+    "explanation": "Séoul est la capitale administrative de Corée du Sud."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Danemark ?",
+    "choices": [
+      "Copenhague",
+      "Aarhus",
+      "Odense",
+      "Aalborg"
+    ],
+    "answer": "Copenhague",
+    "explanation": "Copenhague est la capitale administrative de Danemark."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Égypte ?",
+    "choices": [
+      "Le Caire",
+      "Alexandrie",
+      "Gizeh",
+      "Shubra El-Kheima"
+    ],
+    "answer": "Le Caire",
+    "explanation": "Le Caire est la capitale administrative de Égypte."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Espagne ?",
+    "choices": [
+      "Madrid",
+      "Barcelone",
+      "Valence",
+      "Séville"
+    ],
+    "answer": "Madrid",
+    "explanation": "Madrid est la capitale administrative de Espagne."
+  },
+  {
+    "question": "Quelle est la capitale administrative de États-Unis ?",
+    "choices": [
+      "Washington",
+      "New York",
+      "Los Angeles",
+      "Chicago"
+    ],
+    "answer": "Washington",
+    "explanation": "Washington est la capitale administrative de États-Unis."
+  },
+  {
+    "question": "Quelle est la capitale administrative de France ?",
+    "choices": [
+      "Paris",
+      "Lyon",
+      "Marseille",
+      "Toulouse"
+    ],
+    "answer": "Paris",
+    "explanation": "Paris est la capitale administrative de France."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Grèce ?",
+    "choices": [
+      "Athènes",
+      "Thessalonique",
+      "Patras",
+      "Héraklion"
+    ],
+    "answer": "Athènes",
+    "explanation": "Athènes est la capitale administrative de Grèce."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Inde ?",
+    "choices": [
+      "New Delhi",
+      "Mumbai",
+      "Bangalore",
+      "Chennai"
+    ],
+    "answer": "New Delhi",
+    "explanation": "New Delhi est la capitale administrative de Inde."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Indonésie ?",
+    "choices": [
+      "Jakarta",
+      "Surabaya",
+      "Bandung",
+      "Medan"
+    ],
+    "answer": "Jakarta",
+    "explanation": "Jakarta est la capitale administrative de Indonésie."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Italie ?",
+    "choices": [
+      "Rome",
+      "Milan",
+      "Naples",
+      "Turin"
+    ],
+    "answer": "Rome",
+    "explanation": "Rome est la capitale administrative de Italie."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Japon ?",
+    "choices": [
+      "Tokyo",
+      "Osaka",
+      "Nagoya",
+      "Sapporo"
+    ],
+    "answer": "Tokyo",
+    "explanation": "Tokyo est la capitale administrative de Japon."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Mexique ?",
+    "choices": [
+      "Mexico",
+      "Guadalajara",
+      "Monterrey",
+      "Puebla"
+    ],
+    "answer": "Mexico",
+    "explanation": "Mexico est la capitale administrative de Mexique."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Nigeria ?",
+    "choices": [
+      "Abuja",
+      "Lagos",
+      "Kano",
+      "Ibadan"
+    ],
+    "answer": "Abuja",
+    "explanation": "Abuja est la capitale administrative de Nigeria."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Norvège ?",
+    "choices": [
+      "Oslo",
+      "Bergen",
+      "Trondheim",
+      "Stavanger"
+    ],
+    "answer": "Oslo",
+    "explanation": "Oslo est la capitale administrative de Norvège."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Pays-Bas ?",
+    "choices": [
+      "Amsterdam",
+      "Rotterdam",
+      "La Haye",
+      "Utrecht"
+    ],
+    "answer": "Amsterdam",
+    "explanation": "Amsterdam est la capitale administrative de Pays-Bas."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Pologne ?",
+    "choices": [
+      "Varsovie",
+      "Cracovie",
+      "Łódź",
+      "Wrocław"
+    ],
+    "answer": "Varsovie",
+    "explanation": "Varsovie est la capitale administrative de Pologne."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Portugal ?",
+    "choices": [
+      "Lisbonne",
+      "Porto",
+      "Vila Nova de Gaia",
+      "Amadora"
+    ],
+    "answer": "Lisbonne",
+    "explanation": "Lisbonne est la capitale administrative de Portugal."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Russie ?",
+    "choices": [
+      "Moscou",
+      "Saint-Pétersbourg",
+      "Novossibirsk",
+      "Ekaterinbourg"
+    ],
+    "answer": "Moscou",
+    "explanation": "Moscou est la capitale administrative de Russie."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Suède ?",
+    "choices": [
+      "Stockholm",
+      "Göteborg",
+      "Malmö",
+      "Uppsala"
+    ],
+    "answer": "Stockholm",
+    "explanation": "Stockholm est la capitale administrative de Suède."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Suisse ?",
+    "choices": [
+      "Berne",
+      "Zurich",
+      "Genève",
+      "Lausanne"
+    ],
+    "answer": "Berne",
+    "explanation": "Berne est la capitale administrative de Suisse."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Turquie ?",
+    "choices": [
+      "Ankara",
+      "Istanbul",
+      "Izmir",
+      "Bursa"
+    ],
+    "answer": "Ankara",
+    "explanation": "Ankara est la capitale administrative de Turquie."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Ukraine ?",
+    "choices": [
+      "Kyiv",
+      "Kharkiv",
+      "Odesa",
+      "Dnipro"
+    ],
+    "answer": "Kyiv",
+    "explanation": "Kyiv est la capitale administrative de Ukraine."
+  },
+  {
+    "question": "Quelle est la capitale administrative de Vietnam ?",
+    "choices": [
+      "Hanoï",
+      "Hô Chi Minh-Ville",
+      "Da Nang",
+      "Haiphong"
+    ],
+    "answer": "Hanoï",
+    "explanation": "Hanoï est la capitale administrative de Vietnam."
+  }
+]

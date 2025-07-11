@@ -6,10 +6,40 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Quiz de Culture Générale</h1>
-  <div id="quiz"></div>
-  <button id="next">Suivant</button>
-  <div id="score"></div>
+
+  <!-- Écran d'accueil -->
+  <div id="welcome-screen" class="container">
+    <img src="logo1.png" alt="Logo du quiz" id="quiz-logo">
+    <h1>Bienvenue sur le Quiz !</h1>
+    <p>Testez vos connaissances sur les capitales, Star Wars, et bien plus encore !</p>
+    <button id="launch-btn">Lancer un quiz</button>
+  </div>
+
+  <!-- Écran de sélection des thèmes -->
+  <div id="start-screen" style="display: none;">
+    <h1>Préparez votre Quiz !</h1>
+    <h2>Choisissez un ou plusieurs thèmes :</h2>
+    <div id="themes" class="theme-selection"></div>
+
+    <h2>Combien de questions souhaitez-vous ?</h2>
+    <select id="question-count">
+      <option value="10">10 questions</option>
+      <option value="20">20 questions</option>
+      <option value="30">30 questions</option>
+      <option value="40">40 questions</option>
+      <option value="50">50 questions</option>
+    </select>
+
+    <button id="start-btn">Commencer</button>
+  </div>
+
+  <!-- Écran du quiz -->
+  <div id="quiz-container" style="display: none;">
+    <div id="quiz"></div>
+    <button id="next" style="display: none;">Suivant</button>
+    <button id="restart" style="display:none;">Relancer la partie</button>
+    <div id="score" style="display: none"></div>
+  </div>
 
   <script src="script.js"></script>
 </body>

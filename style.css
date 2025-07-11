@@ -1,135 +1,227 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
   text-align: center;
-  padding: 20px;
 }
 
 .container {
+  max-width: 600px;
+  margin: 40px auto;
   background-color: white;
   padding: 30px;
-  border-radius: 10px;
-  max-width: 500px;
-  margin: auto;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
 }
 
 button {
-  padding: 10px 20px;
-  margin-top: 20px;
+  padding: 10px 18px;
+  margin: 10px 5px;
+  font-size: 16px;
+  border-radius: 6px;
   cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#start-btn,
+#restart,
+#next {
+  background-color: #007bff;
+  color: white;
+}
+
+#start-btn:hover,
+#restart:hover,
+#next:hover {
+  background-color: #0056b3;
+}
+
+#quiz {
+  display: none;
 }
 
 .question {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin: 20px 0;
+  color: #222;
 }
 
 .choices {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin: 20px 0;
 }
 
-/*
-.correct {
-  border: 2px solid green !important;
-  background-color: #d4edda !important;
-}
-
-.incorrect {
-  border: 2px solid red !important;
-  background-color: #f8d7da !important;
-}
-
-.choices button {
+.choice-btn {
+  background-color: #e0e0e0;
   border: 1px solid #ccc;
-  padding: 10px;
-  margin: 5px 0;
-  font-size: 16px;
-  background-color: white;
-  transition: 0.2s ease;
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
-}
-
-.choices button:hover {
-  background-color: #f0f0f0;
-}
-*/
-.choices button {
-  border: none;
-  padding: 12px 20px;
-  margin: 8px 0;
-  font-size: 16px;
-  background-color: #f0f8ff; /* bleu très pâle */
   color: #333;
-  border-radius: 12px;
-  transition: background-color 0.2s ease, transform 0.1s ease;
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.choices button:hover {
-  background-color: #dbefff;
-  transform: scale(1.02);
-}
-
-.correct {
-  border: 2px solid green !important;
-  background-color: #d4edda !important;
-}
-
-.incorrect {
-  border: 2px solid red !important;
-  background-color: #f8d7da !important;
-}
-
-.explanation {
-  font-style: italic;
-  color: #333;
-  background-color: #f9f9f9;
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 10px;
-  border-left: 4px solid #ccc;
-}
-
-#next {
-  margin-top: 20px;
-  padding: 12px 24px;
-  font-size: 16px;
-  background-color: #4a90e2;
+.choice-btn.correct {
+  background-color: #4caf50;
   color: white;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
 }
 
-#next:hover {
-  background-color: #357ab7;
+.choice-btn.incorrect {
+  background-color: #f44336;
+  color: white;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom right, #fdfbfb, #ebedee);
-  min-height: 100vh;
-  padding: 20px;
-  color: #222;
+#explanation {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f8ff;
+  border-left: 4px solid #007bff;
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-body {
+.explanation.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+#score {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 20px;
+  display: none;
+}
+
+.progress-bar-container {
+  height: 12px;
+  background-color: #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 100%;
+  background-color: green;
+  transition: width 1s linear;
+}
+
+#question-number {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+#question-count {
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 120px;
+}
+
+/* Animation lors du changement de question */
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+#welcome-screen {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
 }
 
-#quiz, #score {
-  width: 100%;
-  max-width: 600px;
+#welcome-screen h1 {
+  font-size: 32px;
+  color: #007bff;
+  margin-bottom: 10px;
 }
+
+#welcome-screen p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 30px;
+  max-width: 80%;
+}
+
+#launch-btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#launch-btn:hover {
+  background-color: #218838;
+}
+
+#quiz-logo {
+  max-width: 180px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 20px 10px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .question {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .choices {
+    gap: 8px;
+  }
+
+  #explanation {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  #score {
+    font-size: 20px;
+  }
+
+  #question-number {
+    font-size: 14px;
+  }
+
+  .progress-bar-container {
+    height: 10px;
+  }
+}
+
