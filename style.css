@@ -208,13 +208,19 @@ button:hover {
     font-size: 20px;
   }
 
-  button {
-  font-size: 20px;
-  padding: 18px 24px;
-  width: 100%;
-  min-height: 56px;
-  border-radius: 10px;
-}
+  button,
+  #launch-btn,
+  #start-btn,
+  #restart,
+  #next,
+  .choice-btn {
+    font-size: 22px;
+    padding: 20px 28px;
+    width: 100%;
+    min-height: 64px;
+    border-radius: 12px;
+    margin: 12px 0;
+  }
 
 
   #question-count {
