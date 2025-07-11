@@ -209,10 +209,13 @@ button:hover {
   }
 
   button {
-    font-size: 18px;
-    padding: 14px;
-    width: 100%;
-  }
+  font-size: 20px;
+  padding: 18px 24px;
+  width: 100%;
+  min-height: 56px;
+  border-radius: 10px;
+}
+
 
   #question-count {
     font-size: 20px;
