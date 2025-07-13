@@ -33,16 +33,25 @@
     <button id="start-btn">Commencer</button>
   </div>
 
-  <!-- Écran du quiz -->
+  <!-- Écran du quiz, sans box -->
   <div id="quiz-container" class="screen" style="display: none;">
-    <div class="container">
-      <div id="quiz"></div>
-      <button id="next" style="display: none;">Suivant</button>
-      <button id="restart" style="display:none;">Relancer la partie</button>
-      <div id="score" style="display: none"></div>
-    </div>
-  </div>
+    <div id="question-number"></div>
+    <div id="quiz">
+      <!-- Question -->
+      <div class="question"></div>
 
+      <!-- Choix -->
+      <div class="choices"></div>
+
+      <!-- Explication -->
+      <div id="explanation" class="explanation"></div>
+    </div>
+
+    <button id="next" style="display: none;">Suivant</button>
+    <button id="restart" style="display: none;">Relancer la partie</button>
+
+    <div id="score" style="display: none;"></div>
+  </div>
 
   <script src="script.js"></script>
 </body>

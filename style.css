@@ -195,63 +195,65 @@ button:hover {
 
 /* Responsive mobile */
 @media screen and (max-width: 600px) {
-  .container {
-    margin: 20px 10px;
-    padding: 20px;
-  }
-
-  h1,h2 {
-    font-size: 24px;
+  h1, h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
   }
 
   .question {
-    font-size: 20px;
+    font-size: 22px;
+    margin: 20px 0;
   }
 
-  button,
-  #launch-btn,
-  #start-btn,
-  #restart,
-  #next,
-  .choice-btn {
-    font-size: 22px;
-    padding: 20px 28px;
+  button {
+    font-size: 20px;
+    padding: 16px 24px;
     width: 100%;
-    min-height: 64px;
-    border-radius: 12px;
     margin: 12px 0;
   }
 
+  .choices {
+    gap: 16px;
+  }
+
+  .choice-btn {
+    font-size: 20px;
+    padding: 14px;
+  }
 
   #question-count {
     font-size: 20px;
-    padding: 12px;
-  }
-
-  .choices {
-    gap: 12px;
+    padding: 14px;
+    width: 100%;
+    max-width: 240px;
   }
 
   #explanation {
-    font-size: 16px;
-    padding: 12px;
+    font-size: 18px;
+    padding: 16px;
   }
 
   #score {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   #question-number {
-    font-size: 16px;
-  }
-
-  .progress-bar-container {
-    height: 12px;
+    font-size: 18px;
+    margin-bottom: 10px;
   }
 
   label {
-    font-size: 18px;
-    display: block;
-    margin: 8px 0;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  #launch-btn {
+    font-size: 20px;
+    padding: 16px 32px;
+  }
+
+  #start-btn, #restart, #next {
+    font-size: 20px;
+    padding: 16px 32px;
   }
 }
